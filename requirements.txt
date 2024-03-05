@@ -1,0 +1,10 @@
+# for the webui/daemon
+Flask==2.1.2
+psutil==5.9.8
+waitress==2.1.1
+Werkzeug==2.3.8
+# audio stuff
+pyalsaaudio==0.9.0
+pyttsx3==2.90
+precise-runner==0.3.1
+vosk==0.3.45
