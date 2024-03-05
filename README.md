@@ -14,13 +14,14 @@
 - [x] Added compiled redis for aarch64 in `src/main/resources/META-INF/resources/redis/aarch64`. 
 - [x] Added compiled AppImages for `arm`, `aarch64` and `x64`. 
 - [x] Added `requirements.txt` for the python environment. 
-- [x] `install.py`: removed calls to absent domain abstractfoundry.com.
+- [x] `install.py`: removed calls to absent domain abstractfoundry.com. Version is hardcoded for now.
+- [x] `install.py`: change `/boot/config.txt` to `/boot/firmware/config.txt`
 - [x] Added support for non-wifi interfaces for fetching the ip address.
 
 
 #### Notes
 * Daemon and redis only seem to compile well on x86_64
-* `pipewire-pulse` provides a **pulseaudio-compatible daemon** in deb12
+* `pipewire-pulse` provides a **pulseaudio-compatible daemon** in deb12. More info [here](https://wiki.debian.org/PipeWire#Debian_12)
 * `pulseaudio-utils` might be needed in default installs for `pactl`
 * if run in a shell with `sudo`, `su` or as `root` you'll get audio/connection errors. 
   * I guess this is also the reason for the systemd-service in userland
