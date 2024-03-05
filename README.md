@@ -15,7 +15,7 @@
 - [x] Added compiled AppImages for `arm`, `aarch64` and `x64`. 
 - [x] Added `requirements.txt` for the python environment. 
 - [x] `install.py`: removed calls to absent domain abstractfoundry.com. Version is hardcoded for now.
-- [x] `install.py`: change `/boot/config.txt` to `/boot/firmware/config.txt`
+- [x] `install.py`: changed `/boot/config.txt` to `/boot/firmware/config.txt`
 - [x] Added support for non-wifi interfaces for fetching the ip address.
 
 
