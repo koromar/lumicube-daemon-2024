@@ -8,14 +8,14 @@
 
 
 #### What I've done so far
--[x] Extracted and added `build_redis.sh` from sources, added aarch64 (arm64). 
--[x] Bump Daemon version from 1.9-SNAPSHOT to 2.0 in `pom.xml`
--[x] Updated a frew dependencies in `pom.xml`
--[x] Added compiled redis for aarch64 in `src/main/resources/META-INF/resources/redis/aarch64`. 
--[x] Added compiled AppImages for `arm`, `aarch64` and `x64`. 
--[x] Added `requirements.txt` for the python environment. 
--[x] `install.py`: removed calls to absent domain abstractfoundry.com.
--[x] Added support for non-wifi interfaces for fetching the ip address.
+- [x] Extracted and added `build_redis.sh` from sources, added aarch64 (arm64). 
+- [x] Bump Daemon version from 1.9-SNAPSHOT to 2.0 in `pom.xml`
+- [x] Updated a frew dependencies in `pom.xml`
+- [x] Added compiled redis for aarch64 in `src/main/resources/META-INF/resources/redis/aarch64`. 
+- [x] Added compiled AppImages for `arm`, `aarch64` and `x64`. 
+- [x] Added `requirements.txt` for the python environment. 
+- [x] `install.py`: removed calls to absent domain abstractfoundry.com.
+- [x] Added support for non-wifi interfaces for fetching the ip address.
 
 
 #### Notes
@@ -38,11 +38,11 @@
   * `./build.sh Daemon-2.0`
 
 #### ToDo
--[ ] build a docker container, then don't care about `pip install --break-system-packages`
--[ ] publish the dockerimage.
--[ ] writeup all changes, do more testing. 
--[ ] `install.py`: do more cleanup
--[ ] remove updatecheck calling out to `abstractfoundry.com`
+- [ ] build a docker container, then don't care about `pip install --break-system-packages`
+- [ ] publish the dockerimage.
+- [ ] writeup all changes, do more testing. 
+- [ ] `install.py`: do more cleanup
+- [ ] remove updatecheck calling out to `abstractfoundry.com`
 
 #### Dream of..
 * a daemon based on python. More documentation would help.
